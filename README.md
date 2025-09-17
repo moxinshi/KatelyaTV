@@ -1101,7 +1101,7 @@ pnpm format
 ## 📄 开源协议
 
 本项目基于 **MIT License** 开源协议发布。
-
+2025年9月17日fork
 ```
 MIT License
 
