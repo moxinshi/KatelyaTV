@@ -1,6 +1,4 @@
-export const runtime = 'edge';
-
-export default function handler(req, res) {
-  res.status(200).json({ message: 'Hello from the edge!' });
+export async function POST(req: Request) {
+  const data = await req.json();
+  return new Response(JSON.stringify({ message: 'Received data', data }), { status: 200 });
 }
-
